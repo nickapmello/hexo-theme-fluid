@@ -188,9 +188,6 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "categories", link: "/categories/", icon: "iconfont icon-category-fill" }
-    - { key: "tags", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
 
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -346,7 +343,7 @@ post:
 
     # Number of visits
     views:
-      enable: false
+      enable: true
       # Data Source
       # Options: busuanzi | leancloud
       source: "busuanzi"
